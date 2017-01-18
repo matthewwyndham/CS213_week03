@@ -1,5 +1,12 @@
 /* :Claim this sheet: <put your name here> */
+body {
+    background-color: black;
+    color: white;
+    font-family: Centaur, sans-serif;
+}
 
-p {
-    background-color: lightcoral;
+button {
+    color: white;
+    background-color: black;
+    font-family: Centaur, sans-serif;
 }

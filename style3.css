@@ -1,5 +1,9 @@
 /* :Claim this sheet: <put your name here> */
 
+body {
+    font-family: Arial, sans-serif;
+}
+
 p {
     background-color: darkorange;
 }
