@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2c6df823-45d6-4583-aec7-2fc5cd316072" name="https://github.com/matthewwyndham/CS213_week03.git" url="https://github.com/matthewwyndham/CS213_week03.git">
+        <fileTransfer host="https://github.com/matthewwyndham/CS213_week03.git" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

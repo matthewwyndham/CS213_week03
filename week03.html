@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>A Study in Styles</title>
+    <link rel="stylesheet" type="text/css" href="style1.css" id="currentStyle" />
+</head>
+<body>
+    <button type="button" onclick="loadStyle1()">Style 1</button>
+    <button type="button" onclick="loadStyle2()">Style 2</button>
+    <button type="button" onclick="loadStyle3()">Style 3</button>
+    <button type="button" onclick="loadStyle4()">Style 4</button>
+    <p>Some generic text.</p>
+</body>
+<script>
+    function removeStyle() {
+        var sheetToBeRemoved = document.getElementById('currentStyle');
+        var sheetParent = sheetToBeRemoved.parentNode;
+        sheetParent.removeChild(sheetToBeRemoved);
+    }
+
+    function loadStyle1() {
+        removeStyle();
+        var header = document.getElementsByTagName('head')[0];
+        var styleSheet = document.createElement('link');
+        styleSheet.rel = 'stylesheet';
+        styleSheet.type = 'text/css';
+        styleSheet.href = 'style1.css'; // name of your css file
+        styleSheet.media = 'all';
+        styleSheet.id = 'currentStyle';
+        header.appendChild(styleSheet);
+    }
+
+    function loadStyle2() {
+        removeStyle();
+        var header = document.getElementsByTagName('head')[0];
+        var styleSheet = document.createElement('link');
+        styleSheet.rel = 'stylesheet';
+        styleSheet.type = 'text/css';
+        styleSheet.href = 'style2.css'; // name of your css file
+        styleSheet.media = 'all';
+        styleSheet.id = 'currentStyle';
+        header.appendChild(styleSheet);
+    }
+
+    function loadStyle3() {
+        removeStyle();
+        var header = document.getElementsByTagName('head')[0];
+        var styleSheet = document.createElement('link');
+        styleSheet.rel = 'stylesheet';
+        styleSheet.type = 'text/css';
+        styleSheet.href = 'style3.css'; // name of your css file
+        styleSheet.media = 'all';
+        styleSheet.id = 'currentStyle';
+        header.appendChild(styleSheet);
+    }
+
+    function loadStyle4() {
+        removeStyle();
+        var header = document.getElementsByTagName('head')[0];
+        var styleSheet = document.createElement('link');
+        styleSheet.rel = 'stylesheet';
+        styleSheet.type = 'text/css';
+        styleSheet.href = 'style4.css'; // name of your css file
+        styleSheet.media = 'all';
+        styleSheet.id = 'currentStyle';
+        header.appendChild(styleSheet);
+    }
+</script>
+</html>
