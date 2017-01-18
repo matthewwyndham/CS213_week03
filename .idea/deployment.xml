@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="https://github.com/matthewwyndham/CS213_week03.git" uploadOnCheckin="2c6df823-45d6-4583-aec7-2fc5cd316072">
+  <component name="PublishConfigData" serverName="https://github.com/matthewwyndham/CS213_week03.git">
     <serverData>
       <paths name="https://github.com/matthewwyndham/CS213_week03.git">
         <serverdata>
@@ -10,6 +10,5 @@
         </serverdata>
       </paths>
     </serverData>
-    <option name="myUploadOnCheckinName" value="https://github.com/matthewwyndham/CS213_week03.git" />
   </component>
 </project>
